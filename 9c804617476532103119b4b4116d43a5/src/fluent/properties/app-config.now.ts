@@ -7,7 +7,7 @@ import { Property } from '@servicenow/sdk/core'
 Property({
     $id: Now.ID['default_interest_rate_prop'],
     name: 'x_1610509_intellil.default_interest_rate',
-    type: 'decimal',
+    type: 'string',
     value: '0.15',
     description: 'Default interest rate for loan applications (15%)',
     category: 'Intelli-Loan Configuration'
@@ -17,7 +17,7 @@ Property({
 Property({
     $id: Now.ID['max_loan_amount_prop'],
     name: 'x_1610509_intellil.max_loan_amount',
-    type: 'decimal',
+    type: 'string',
     value: '5000',
     description: 'Maximum loan amount allowed per application',
     category: 'Intelli-Loan Configuration'
@@ -27,7 +27,7 @@ Property({
 Property({
     $id: Now.ID['min_loan_amount_prop'],
     name: 'x_1610509_intellil.min_loan_amount',
-    type: 'decimal',
+    type: 'string',
     value: '100',
     description: 'Minimum loan amount allowed per application',
     category: 'Intelli-Loan Configuration'
@@ -47,7 +47,7 @@ Property({
 Property({
     $id: Now.ID['late_fee_percentage_prop'],
     name: 'x_1610509_intellil.late_fee_percentage',
-    type: 'decimal',
+    type: 'string',
     value: '0.05',
     description: 'Late fee percentage applied to overdue payments (5%)',
     category: 'Intelli-Loan Configuration'
